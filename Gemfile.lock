@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     edh_privacy_policies (1.0.0)
+      i18n (~> 1.0.1)
 
 GEM
   remote: https://rubygems.org/
