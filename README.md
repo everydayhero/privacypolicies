@@ -58,6 +58,6 @@ Get all policies for a locale as a hash:
 ```ruby
 require 'edh_privacy_policies'
 
-EdhPrivacyPolicies.current_policy('en-IE')
+EdhPrivacyPolicies.all_policies('en-IE')
 # -> { "2018-05-23": { title: "Privacy Policy", ...}, "2017-11-06": { ... } }
 ```
