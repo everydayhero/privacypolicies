@@ -6,7 +6,7 @@ module EdhPrivacyPolicies
     File.dirname __dir__
   end
 
-  I18n.load_path = [
+  I18n.load_path += [
     File.join(root, 'lib/edh_privacy_policies/locales/en-AU.yml'),
     File.join(root, 'lib/edh_privacy_policies/locales/en-GB.yml'),
     File.join(root, 'lib/edh_privacy_policies/locales/en-IE.yml'),
