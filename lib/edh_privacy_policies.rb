@@ -2,13 +2,16 @@ require "edh_privacy_policies/version"
 require "i18n"
 
 module EdhPrivacyPolicies
+  def self.root
+    File.dirname __dir__
+  end
+
   I18n.load_path = [
-    'lib/edh_privacy_policies/locales/en.yml',
-    'lib/edh_privacy_policies/locales/en-AU.yml',
-    'lib/edh_privacy_policies/locales/en-GB.yml',
-    'lib/edh_privacy_policies/locales/en-IE.yml',
-    'lib/edh_privacy_policies/locales/en-NZ.yml',
-    'lib/edh_privacy_policies/locales/en-US.yml',
+    File.join(root, 'lib/edh_privacy_policies/locales/en-AU.yml'),
+    File.join(root, 'lib/edh_privacy_policies/locales/en-GB.yml'),
+    File.join(root, 'lib/edh_privacy_policies/locales/en-IE.yml'),
+    File.join(root,'lib/edh_privacy_policies/locales/en-NZ.yml'),
+    File.join(root, 'lib/edh_privacy_policies/locales/en-US.yml'),
   ]
 
   def self.current_policy_version(locale)
