@@ -224,10 +224,7 @@ en-GB:
         terms: We keep your personal data in an identifiable form for as long as we have a legitimate reason to use the data and as required by law. If you would like us to remove any information please contact us.
 
       - title: Payment Card Industry Data Security Standard
-        terms: |
-          everydayhero adheres to the Payment Card Industry Data Security Standard (PCI DSS). The Payment Card Industry Data Security Standard (PCI DSS) is a proprietary information security standard for organisations that handle branded credit cards from the major card schemes including Visa, MasterCard, American Express, and Discover.
-
-          Date and number of this version: 24 October 2018, version 1
+        terms: everydayhero adheres to the Payment Card Industry Data Security Standard (PCI DSS). The Payment Card Industry Data Security Standard (PCI DSS) is a proprietary information security standard for organisations that handle branded credit cards from the major card schemes including Visa, MasterCard, American Express, and Discover.
 
     "2017-11-06":
       title: Data Protection Statement
