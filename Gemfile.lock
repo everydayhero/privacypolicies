@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    edh_privacy_policies (1.0.3)
+    edh_privacy_policies (1.0.6)
       i18n (~> 0.8)
 
 GEM
@@ -12,19 +12,19 @@ GEM
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     rake (10.5.0)
-    rspec (3.7.0)
-      rspec-core (~> 3.7.0)
-      rspec-expectations (~> 3.7.0)
-      rspec-mocks (~> 3.7.0)
-    rspec-core (3.7.1)
-      rspec-support (~> 3.7.0)
-    rspec-expectations (3.7.0)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.7.0)
-    rspec-mocks (3.7.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.7.0)
-    rspec-support (3.7.1)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
 
 PLATFORMS
   ruby
@@ -37,4 +37,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   1.16.2
+   1.16.6
